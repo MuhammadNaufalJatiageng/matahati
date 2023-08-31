@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jost Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <!-- Sedgwick Ave Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Toko Baju</title>
+</head>
+<body>
+    <nav>
+        <section class="container-header">
+            <div class="header-item1">
+                <img src="asset/matahati_logo.png" alt="">
+            </div>
+            <div class="header-item2">
+                <ul>
+                    <li class="active"><a href="#">All</a></li>
+                    <li><a href="#">Pria</a></li>
+                    <li><a href="#">Wanita</a></li>
+                    <li><a href="#">Anak</a></li>
+                </ul>
+            </div>
+            <div class="header-item3">
+                <i class="fa-regular fa-circle-user fa-lg"></i>
+                <i class="fa-sharp fa-solid fa-gear fa-lg"></i>
+            </div>
+            <div class="header-item4">
+                <ul>
+                    <li><i class="fa-solid fa-magnifying-glass fa-lg"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping fa-lg"></i></li>
+                    <li><i class="fa-regular fa-heart fa-lg"></i></li>
+                </ul>
+            </div>
+            <div id="searchbar">
+            </div>
+        </section>
+    </nav>
+
+    <main class="productPage">
+        <section>
+            <figure>
+                <img src="asset/erigo1/erigo.webp" alt="">
+            </figure>
+            <figcaption class="body-card">
+                <h3 class="title">Erigo Kemeja Shanghai Short...</h3>
+                <div>
+                    <div class="rating">
+                        <i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+                        <p>4.9</p>
+                    </div>
+                    <div class="price">
+                        <p>Rp 129.999,99</p>
+                    </div>
+                </div>
+            </figcaption>
+        </section>
+        <section>
+            <h3>Product Detail</h3>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia consectetur aperiam ullam accusamus, quis quaerat!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, quod.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet consequuntur fuga.</p>
+            </div>
+        </section>
+        <section id="transaction">
+            <div>
+                <p>Quantity</p>
+                <div>
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <input type="number" name="qty" value="1">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+            <div>
+                <p>Total</p>
+                <div>
+                    <input type="number" disabled value="129999">
+                </div>
+            </div>
+            <div class="checkout">
+                <button>Checkout Now !</button>
+            </div>
+            <!-- <div class="goCart">
+                <button>Add to Cart !</button>
+            </div> -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrapper">
+            <section>
+                <div class="footer-header">
+                    CUSTOMER SERVICE
+                </div>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </section>
+            <section>
+                <div class="footer-header">
+                    HELP
+                </div>
+                <ul>
+                    <li><a href="#">Exchanges & Returns</a></li>
+                    <li><a href="#">Payment Information</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </section>
+            <section>
+                <div class="footer-header">
+                    BUSSINESS
+                </div>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pop-Up Store</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </section>
+            <section>
+                <div class="footer-header">
+                    FOLLOW US
+                </div>
+                <div class="follow-us">
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+</body>
+</html>
